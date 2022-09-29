@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { changeName } from '../Store/Slices/userName.slice';
+import { changeName } from '../store/slices/userName.slice';
 
 const UserInput = () => {
 
