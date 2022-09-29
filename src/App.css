@@ -1,0 +1,81 @@
+body {
+    background-color:rgb(193, 210, 216);
+}
+
+.title {
+  
+    font-size: 35px;
+    text-align: center;
+  
+}
+
+.input-sign {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-send {
+   
+    font-size: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.userInput {
+  
+    margin-top: 50px;
+    background-image: url(../src/assets/ash.jpg);
+    width:400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal-pokemon {
+    text-align: center;
+}
+
+.btn-pages {
+ display: flex;
+ justify-content:space-around;
+}
+
+.pokemon-card {
+    border: 1px solid rgb(16, 105, 238);
+    width: 350px;
+    height: 200px;
+    }
+
+.img-size {
+  width: 125px;
+}
+
+.pokemons-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+ }
+
+ .pokemon-detail {
+    text-align: center;
+ }
+
+ .pok {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .img-detail-size {
+    width: 400px;
+  
+ }
+
+
+ /*----*/
